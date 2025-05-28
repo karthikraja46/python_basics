@@ -21,5 +21,6 @@ print(message)
 message = f'{greeting}, {name.lower()}. Welcome!' # string formatting using f-strings
 print(message)
 
-print(dir(name)) #dir returns the list of attributes and methods for the object
+# print(dir(name)) #dir returns the list of attributes and methods for the object
 # print(help(str)) #help returns the documentation for the object
+
