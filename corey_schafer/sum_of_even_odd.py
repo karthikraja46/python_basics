@@ -3,7 +3,7 @@ n = len(nums)
 even = 0
 odd = 0
 
-for i in range(len(nums)):
+for i in range(n):
     if nums[i]%2==0:
         even += nums[i]
     else:
