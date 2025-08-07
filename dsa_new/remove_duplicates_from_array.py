@@ -2,7 +2,7 @@
 # Output: 2, nums = [1,2,_]
 
 
-def removeDuplicates(nums):
+def remove_duplicates(nums):
         i = 0
         for j in range(1, len(nums)):
             if nums[i] != nums[j]:
@@ -11,4 +11,4 @@ def removeDuplicates(nums):
         return i+1
 
 nums = [1,1,2]
-print('remove duplicates from array',removeDuplicates(nums))
+print('remove duplicates from array',remove_duplicates(nums))
