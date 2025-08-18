@@ -1,13 +1,13 @@
 # # Brute Force
-# # def valid_anagram(s:str, t:str) -> bool:
-# #     if len(s) != len(t):
-# #         return False
-# #     else:
-# #         return sorted(s) == sorted(t)
+def valid_anagram(s:str, t:str) -> bool:
+    if len(s) != len(t):
+        return False
+    else:
+        return sorted(s) == sorted(t)
     
-# # s = 'anagram'
-# # t = 'nagaram'
-# # print('the two strings are anagram to each other',valid_anagram(s,t))
+s = 'anagram'
+t = 'nagaram'
+print('the two strings are anagram to each other',valid_anagram(s,t))
 
 # # Optimal solution
 
