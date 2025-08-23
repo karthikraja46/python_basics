@@ -2,7 +2,8 @@ def sum_of_distinct_elements(nums):
     map = {}
     count = 0
     for num in nums:
-        count += num
+        if num not in map:
+            count += num
 
     return count
 
