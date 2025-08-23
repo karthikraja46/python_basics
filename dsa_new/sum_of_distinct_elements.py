@@ -4,6 +4,7 @@ def sum_of_distinct_elements(nums):
     for num in nums:
         if num not in map:
             count += num
+            map[num] = True
 
     return count
 
