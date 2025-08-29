@@ -11,3 +11,6 @@ def isPowerOfTwo(n):
         
 n = 3
 print('the power of two', isPowerOfTwo(n))
+
+isPowerOfTwo = lambda n: n > 0 and n & (n - 1) == 0
+print('the power of two', isPowerOfTwo(8))
