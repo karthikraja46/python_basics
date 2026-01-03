@@ -8,3 +8,12 @@ for num in nums:
         visited[num] = True
 
 print(count)
+
+## Different method
+
+def countDistinct(nums):
+    freq={}
+    for num in nums:
+        freq[num] = 1
+        
+    return len(freq)
