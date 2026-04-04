@@ -40,3 +40,8 @@ print(emp_2.__dict__)  # prints the attributes of emp_2
 
 print('{} {}'.format(emp_1.first, emp_1.last))
 print(emp_2.fullname())
+
+# emp_1.fullname()
+# Employee.fullname(emp_1)  # calling the method directly from the class
+print(Employee.fullname(emp_1))  # calling the method directly from the class
+print(Employee.fullname(emp_2))  # calling the method directly from the class
